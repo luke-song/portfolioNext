@@ -33,7 +33,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
         <title>Luke Song - Personal Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: '500ms' }}>
-        <Switcher />
+        {/* <Switcher /> */}
         {/* Header Starts */}
         {!extraPage && <Header light={light} />}
         {/* Main Content Starts */}{' '}

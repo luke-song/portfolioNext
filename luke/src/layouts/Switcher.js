@@ -1,15 +1,15 @@
-import { Fragment, useContext, useState } from "react";
-import ColorContext from "../context/colorContext";
+import { Fragment, useContext, useState } from 'react';
+import ColorContext from '../context/colorContext';
 
 const colors = [
-  { name: "blue", colorImg: "img/styleswitcher/blue.png" },
-  { name: "red", colorImg: "img/styleswitcher/red.png" },
-  { name: "goldrenrod", colorImg: "img/styleswitcher/goldenrod.png" },
-  { name: "magenta", colorImg: "img/styleswitcher/magenta.png" },
-  { name: "yellowgreen", colorImg: "img/styleswitcher/yellowgreen.png" },
-  { name: "orange", colorImg: "img/styleswitcher/orange.png" },
-  { name: "green", colorImg: "img/styleswitcher/green.png" },
-  { name: "yellow", colorImg: "img/styleswitcher/yellow.png" },
+  { name: 'blue', colorImg: 'img/styleswitcher/blue.png' },
+  { name: 'red', colorImg: 'img/styleswitcher/red.png' },
+  { name: 'goldrenrod', colorImg: 'img/styleswitcher/goldenrod.png' },
+  { name: 'magenta', colorImg: 'img/styleswitcher/magenta.png' },
+  { name: 'yellowgreen', colorImg: 'img/styleswitcher/yellowgreen.png' },
+  { name: 'orange', colorImg: 'img/styleswitcher/orange.png' },
+  { name: 'green', colorImg: 'img/styleswitcher/green.png' },
+  { name: 'yellow', colorImg: 'img/styleswitcher/yellow.png' },
 ];
 
 const Switcher = () => {
@@ -21,7 +21,7 @@ const Switcher = () => {
       <div
         id="switcher"
         className=""
-        style={{ display: toggle ? "block" : "none" }}
+        style={{ display: toggle ? 'block' : 'none' }}
       >
         <div className="content-switcher">
           <h4>STYLE SWITCHER</h4>
@@ -41,15 +41,7 @@ const Switcher = () => {
             ))}
           </ul>
           <br />
-          <a
-            href=""
-            className="waves-effect waves-light btn font-weight-600 purchase hoverable"
-          >
-            {" "}
-            <span>
-              <i className="fa fa-shopping-cart" /> PURCHASE
-            </span>
-          </a>
+
           <div id="hideSwitcher" onClick={() => setToggle(false)}>
             ×
           </div>
@@ -59,7 +51,7 @@ const Switcher = () => {
         id="showSwitcher"
         className="styleSecondColor"
         onClick={() => setToggle(true)}
-        style={{ display: toggle ? "none" : "block" }}
+        style={{ display: toggle ? 'none' : 'block' }}
       >
         <i className="fa fa-cog fa-spin" />
       </div>
