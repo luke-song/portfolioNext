@@ -33,7 +33,7 @@ const workData = [
   },
   {
     img: 'img/projects/project-3.jpg',
-    name: 'Filter',
+    name: 'Philter',
     format: 'img',
     project: 'Generative AI art Website',
     client: 'Open Source',

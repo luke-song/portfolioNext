@@ -49,21 +49,17 @@ const About = () => {
                     Song
                   </h6>
                 </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Birthdate</span>13
-                    December 1997
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Nationality</span>
-                    English
-                  </h6>
-                </li>
+
                 <li>
                   <h6>
                     <span className="font-weight-600">Experience</span>4 years
+                  </h6>
+                </li>
+
+                <li>
+                  <h6>
+                    <span className="font-weight-600">Address</span>
+                    San Jose, CA
                   </h6>
                 </li>
               </ul>
@@ -79,7 +75,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Languages</span>
-                    English
+                    English, Korean
                   </h6>
                 </li>
                 <li>
@@ -94,15 +90,9 @@ const About = () => {
                     hyeonminsong7@gmail.com
                   </h6>
                 </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Address</span>
-                    San Jose, CA
-                  </h6>
-                </li>
               </ul>
             </div>
-            <div className="col-12 resume-btn-container">
+            {/* <div className="col-12 resume-btn-container">
               <a
                 href="/resume/LukeResume(08_09_2023).pdf"
                 className="btn btn-resume"
@@ -112,7 +102,7 @@ const About = () => {
                   download my cv
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
           {/* Personal Infos Ends */}
         </div>
@@ -238,7 +228,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2017-2023
+                        Grduated
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Software Engineering
@@ -249,7 +239,8 @@ const About = () => {
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>Graduated Cum Laude</p>
+                      <p>Cum Laude</p>
+                      <p>Cyber Security Certificate</p>
                     </div>
                   </div>
                 </div>
@@ -262,7 +253,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2019
+                        Certified
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Blockchain Professional
